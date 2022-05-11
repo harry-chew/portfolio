@@ -1,0 +1,162 @@
+
+* {
+  border : 0;
+  margin : 0;
+  padding : 0;
+  scroll-behavior: smooth;
+
+}
+.title, .call-to-action {
+  font-family: 'Caveat', cursive;
+}
+body {
+
+}
+.page-wrapper {
+  width : 100%;
+}
+
+.wrapper {
+  width : 100vw;
+  height : 100vh;
+}
+
+.landing-wrapper {
+  width : 100vw;
+  height : 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/landing.png');
+  background-color : rgba(0,0,0,0.1);
+  background-attachment: fixed;
+}
+.landing-wrapper h1 {
+  margin : 30px;
+  color : white;
+  //color : rgba(255,255,255,0.15);
+  text-shadow: 3px 3px 5px rgba(125,55,254,0.1);
+}
+.call-to-action {
+  color : white;
+  //color : rgba(255,255,255,0.15);
+  text-decoration: none;
+  padding : 15px;
+  margin : 30px auto;
+  border : 5px solid white;
+  border-radius: 5px;
+
+}
+
+.call-to-action:hover {
+  background-color : rgba(0,0,0,0.15);
+}
+
+.title {
+  margin: auto;
+  text-align: center;
+  font-size : 3rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about {
+  background-image: url('../img/about.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.about-text {
+  width : 80%;
+  margin : auto;
+  font-size : 1.5rem;
+  color : rgba(255,255,255,0.65);
+}
+
+.about .title {
+  margin: 20px auto;
+  color : rgba(255,255,255,0.75);;
+}
+
+.about .call-to-action {
+  font-size : 2rem;
+}
+
+
+/* Add a background color and some padding around the form */
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.container-col {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.1);
+  padding: 20px;
+}
+
+.container>form {
+  width : 60%;
+  margin : 10px;
+}
+.container>.social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width : 40%;
+  height : 100%;
+  margin : 50px 20px;
+}
+
+.social>i {
+  width: 50%;
+  font-size : 10rem;
+  text-align: center;
+}
+.social>i:hover {
+  color : red;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: rgba(0,0,0,0.1);
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 2rem;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgba(0,0,0,0.5);
+}
