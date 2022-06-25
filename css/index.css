@@ -6,11 +6,12 @@
   scroll-behavior: smooth;
 
 }
-.title, .call-to-action {
-  font-family: 'Caveat', cursive;
+.title, .call-to-action,.call-to-action-dark, h2 {
+  font-family: 'Special Elite', cursive;
 }
 body {
-
+  overflow-x: hidden;
+  font-family: 'Courier Prime', monospace;
 }
 .page-wrapper {
   width : 100%;
@@ -21,9 +22,46 @@ body {
   height : 100vh;
 }
 
+.banner {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top : 0;
+  left : 0;
+  width : 100%;
+  background-color: rgba(0,0,0,1);
+  border-bottom : 1px solid rgba(255,255,255,0.25);
+  z-index: 1;
+}
+#hc {
+  width : 20%;
+  justify-content: flex-start;
+}
+
+#navbar {
+  width : 80%;
+  justify-content: flex-end;
+}
+
+.banner-elements {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255,255,255,0.15);
+}
+.banner-links a {
+  color : rgba(255,255,255,0.85);
+  text-decoration: none;
+  padding : 1rem;
+  transition: all 0.3s ease;
+}
+.banner-links a:hover {
+  background-color: rgba(255,0,0,0.5);
+}
+
+
 .landing-wrapper {
   width : 100vw;
-  height : 100vh;
+  height : 45vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,29 +72,47 @@ body {
 }
 .landing-wrapper h1 {
   margin : 30px;
-  color : white;
+  color : rgba(255,255,255,0.85);
   //color : rgba(255,255,255,0.15);
   text-shadow: 3px 3px 5px rgba(125,55,254,0.1);
 }
 .call-to-action {
-  color : white;
-  //color : rgba(255,255,255,0.15);
+  color : rgba(255,255,255,0.65);
+  background-color: rgba(0,0,0,0.15);
   text-decoration: none;
   padding : 15px;
   margin : 30px auto;
-  border : 5px solid white;
+  border : 5px solid rgba(255,255,255,0.55);
   border-radius: 5px;
-
+  transition: all 0.3s ease;
 }
 
 .call-to-action:hover {
-  background-color : rgba(0,0,0,0.15);
+  background-color : rgba(0,0,0,0.85);
+  border : 5px solid rgba(255,255,255,1);
+  color : rgba(255,0,0,0.85);
+  text-shadow: 0rem -0.5rem 0.2rem rgba(255,255,255,0.15);
+}
+.call-to-action-dark {
+  color : rgba(0,0,0,0.65);
+  text-decoration: none;
+  padding : 15px;
+  margin : 30px auto;
+  border : 5px solid rgba(0,0,0,0.65);
+  border-radius: 5px;
+  transition: all 0.3s ease;
 }
 
+.call-to-action-dark:hover {
+  background-color : rgba(0,0,0,0.15);
+  border : 5px solid rgba(0,0,0,0.75);
+  color : rgba(255,0,0,0.85);
+  text-shadow: 0rem -0.5rem 0.2rem rgba(0,0,0,0.15);
+}
 .title {
-  margin: auto;
+  margin: 3rem auto;
   text-align: center;
-  font-size : 3rem;
+  font-size : 2rem;
 }
 
 .flex {
@@ -65,38 +121,281 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.stats {
+  width : 100%;
+  flex-direction: row;
+  background-image : linear-gradient(60deg,rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+  background-color: powderblue;
+}
+
+.stat {
+  width : 300px;
+  height : 300px;
+  border : 1px solid black;
+  border-radius: 50%;
+  margin: 4rem;
+  background-color: rgba(255,255,255,0.5);
+}
+.stat p {
+  font-size : 2rem;
+}
+.statnum {
+  font-size : 5rem !important;
+}
 #about {
-  background-image: url('../img/about.png');
+  background-image : linear-gradient(60deg,rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+  background-color: powderblue;
+}
+
+#web {
+  background-image: url('../img/webdev.png');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 
-
+.contact {
+  background-image : linear-gradient(60deg,rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+  background-color: powderblue;
+}
+.contact-form input {
+  border : 1px solid rgba(0,0,0,0);
+}
+.contact-form input:hover, .contact-form textarea:hover {
+  border : 1px solid black;
+}
 .about-text {
   width : 80%;
   margin : auto;
-  font-size : 1.5rem;
-  color : rgba(255,255,255,0.65);
+  font-size : 1rem;
+  color : rgba(0,0,0,0.85);
+
 }
 
-.about .title {
-  margin: 20px auto;
-  color : rgba(255,255,255,0.75);;
-}
 
-.about .call-to-action {
+
+.about .call-to-action, .call-to-action-dark {
   font-size : 2rem;
 }
 
 
+/* WEB DEVELOPMENT SECTION */
+
+.web h2 {
+  color : white;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  width : 80%;
+  justify-content : center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width : 30%;
+  margin : 1rem 1rem 5rem 1rem;
+  background-color : rgba(30,50,55,0.5);
+  color : rgba(0,0,0,0.5);
+  border : 1px solid rgba(0,0,0,0.1);
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+  transition: all 0.1s ease;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.card:hover>i {
+  color : rgba(255,0,0,0.5);
+}
+
+.card:hover>p {
+  border : 1px solid rgba(255,255,255,0.1);
+  color : rgba(255,255,255,0.5);
+}
+
+.card i {
+  color: rgba(0,0,0,0);
+  background: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(0,0,0,0.5);
+  margin: 3rem 0 1rem 0;
+  font-size: 10rem;
+  transition: all 0.25s ease;
+
+}
+
+.card p {
+  cursor: pointer;
+  color : rgba(0,0,0,0);
+  display: block;
+  margin : 1rem;
+  padding : 1rem;
+  border : 1px solid rgba(0,0,0,0);
+  transition: all 0.3s ease;
+}
+
+#wordPressModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left : 0;
+  width : 100vw;
+  height : 100vh;
+  background-image : linear-gradient(60deg,rgba(0,0,0,0.1), rgba(0,0,0,0.3));
+  background-color: powderblue;
+  z-index: 3;
+}
+#wordPressModal>h2 {
+  text-align: center;
+  font-size : 4rem;
+  margin-top : 3rem;
+}
+#wordPressModalClose {
+  cursor: pointer;
+  position: fixed;
+  top : 50px;
+  right : 50px;
+  margin : 1rem;
+  font-size: 5rem;
+}
+
+.wordPressModalInner {
+  display : flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10rem;
+  flex-wrap: wrap;
+}
+.wordPressModalCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width : 20%;
+  background-color: rgba(255,255,255,0.5);
+  text-align: center;
+  padding : 1rem;
+  text-decoration: none;
+  color : rgba(0,0,0,1);
+  box-shadow : 10px 10px 5px rgba(0,0,0,0.5);
+  transition: all 0.3s ease;
+}
+.wordPressModalCard:hover {
+  box-shadow : 5px 5px 15px rgba(0,0,0,0.5);
+}
+.wordPressModalCard img {
+  width : 50%;
+}
+.cardsImgWrapper {
+  width : 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border : 1px solid black;
+  background-color: rgba(0,0,0,0.3);
+  height : 150px;
+}
+.wordPressModalCard i {
+  font-size : 3rem;
+}
+.wordPressModalCard a {
+  text-decoration: none;
+  border : 1px solid grey;
+  color : rgba(0,0,0,1);
+  padding : 1rem;
+  font-size : 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.wordPressModalCard a:hover {
+  background-color: rgba(0,0,0,0.5);
+  color : rgba(255,255,255,0.5);
+}
+
+
+.wordPressModalCard i, .wordPressModalCard a, .wordPressModalCard p {
+  margin : 1rem;
+}
+
+#codeModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left : 0;
+  width : 100vw;
+  height : 100vh;
+  background-image : linear-gradient(60deg,rgba(0,0,0,0.1), rgba(0,0,0,0.3));
+  background-color: powderblue;
+  z-index: 3;
+}
+
+#codeModal>h2 {
+  text-align: center;
+  font-size : 4rem;
+  margin-top : 3rem;
+}
+#codeModalClose {
+  cursor: pointer;
+  position: fixed;
+  top : 50px;
+  right : 50px;
+  margin : 1rem;
+  font-size: 5rem;
+}
+
+#webAppModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left : 0;
+  width : 100vw;
+  height : 100vh;
+  background-image : linear-gradient(60deg,rgba(0,0,0,0.1), rgba(0,0,0,0.3));
+  background-color: powderblue;
+  z-index: 3;
+}
+#webAppModal>h2 {
+  text-align: center;
+  font-size : 4rem;
+  margin-top : 3rem;
+}
+#webAppModalClose {
+  cursor: pointer;
+  position: fixed;
+  top : 50px;
+  right : 50px;
+  margin : 1rem;
+  font-size: 5rem;
+}
+
+
+.x-button {
+  color : rgba(0,0,0,0.5);
+  text-shadow: 5px 5px 25px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+}
+.x-button:hover {
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+  color : rgba(0,0,0,1);
+}
 /* Add a background color and some padding around the form */
 .container {
-  width: 80%;
+  margin-bottom : 3rem;
+  width: 60%;
   display: flex;
   flex-direction: row;
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: rgba(255,255,255,0.5);
   padding: 20px;
 }
 .container-col {
@@ -104,29 +403,32 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  background-color: rgba(255,255,255,0.1);
   padding: 20px;
 }
 
 .container>form {
-  width : 60%;
+  width : 80%;
   margin : 10px;
 }
 .container>.social {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  width : 40%;
+  align-items: center;
+  width : 20%;
   height : 100%;
   margin : 50px 20px;
 }
-
-.social>i {
-  width: 50%;
-  font-size : 10rem;
-  text-align: center;
+.social>a {
+  text-decoration: none;
+  color : rgba(0,0,0,0.5);
 }
-.social>i:hover {
+.social>a>i {
+  font-size : 7rem;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+.social>a>i:hover {
   color : red;
 }
 
@@ -159,4 +461,17 @@ input[type=submit] {
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: rgba(0,0,0,0.5);
+}
+
+
+.footer {
+  width : 100%;
+  text-align: center;
+  background-color: rgba(0,0,0,1);
+}
+
+.footer p {
+  color : rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.05);
+  padding : 1rem;
 }
