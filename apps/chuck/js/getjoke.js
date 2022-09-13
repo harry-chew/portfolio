@@ -4,9 +4,11 @@ const jokeText = document.getElementById("joke")
 jokeButton.onmousedown = function() {
   jokeButton.className = "m-10 shadowed"
 }
+
 jokeButton.onmouseup = function() {
   jokeButton.className = "m-10"
 }
+
 const xhr = new XMLHttpRequest()
 getNewJoke()
 

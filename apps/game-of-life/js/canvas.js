@@ -4,7 +4,6 @@ const slider = document.getElementById('speed');
 
 slider.addEventListener("change", updateSpeed);
 
-
 //vars
 let grid;
 let newGrid;
@@ -28,7 +27,6 @@ function create2DArray(cols, rows) {
 
 function setup() {
   grid = create2DArray(cols,rows);
-
   for(let i = 0; i < cols; i++) {
     for(let j=0; j < rows; j++) {
       grid[i][j] = Math.floor(Math.random() * 2);
@@ -53,8 +51,6 @@ function drawGrid() {
   }
 }
 
-
-
 function updateGrid() {
   for(let i = 0; i < cols; i++) {
     for(let j = 0; j < rows; j++) {
@@ -63,9 +59,6 @@ function updateGrid() {
       if(grid[i][j] == 1 && nb == 2 || nb == 3) {
         newGrid[i][j] = 1;
       }
-      // if(grid[i][j] == 1 && nb > 3 || nb < 2) {
-      //   newGrid[i][j] = 0;
-      // }
       else if(grid[i][j] == 0 && nb == 3) {
         newGrid[i][j] = 1;
       }
@@ -97,16 +90,12 @@ function checkNeighbours(g, x, y) {
     }
   }
   n-=g[x][y];
-  //console.log("grid["+x+"]["+y+"]" + " has " + n + " neighbours");
   return n;
 }
-
-
 
 //THE ACTUAL GAME OF LIFE
 setup();
 drawGrid();
-//console.table(grid);
 
 function loop() {
   emptyGrid();
@@ -117,46 +106,3 @@ function loop() {
 }
 
 loop();
-
-
-
-
-// class Grid {
-//   constructor(w,h) {
-//     this.width = w;
-//     this.height = h;
-//   }
-//
-//   createGrid(cols, rows) {
-//     let arr = new Array(cols);
-//     for(let i = 0; i < arr.length; i++) {
-//       arr[i] = new Array(rows);
-//     }
-//     return arr;
-//   }
-//
-//   draw(ctx) {
-//     ctx.fillRect(0,0, this.width, this.height);
-//   }
-// }
-//
-// class Cell {
-//   state = 0;
-//   constructor(x,y,w,h) {
-//     this.x = x;
-//     this.y = y;
-//     this.w = w;
-//     this.h = h;
-//   }
-//
-//   setState() {
-//     this.state = Math.floor(Math.random() * 2);
-//     return this.state;
-//   }
-//   draw(ctx) {
-//     if(state == 1) {
-//       ctx.fillStyle = 'white';
-//     }
-//     ctx.fillRect(this.x, this.y, this.w, this.h);
-//   }
-// }
