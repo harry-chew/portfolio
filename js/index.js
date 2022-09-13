@@ -6,7 +6,6 @@ wordPressCardButton.addEventListener('click', wordPressFull);
 //wordPressModal.addEventListener('click', showWebsite)
 wordPressModalClose.addEventListener('click', showWebsite);
 
-
 const codePressCardButton = document.getElementById('codePressCardButton');
 const codeModal = document.getElementById('codeModal');
 const codeModalClose = document.getElementById('codeModalClose');
@@ -44,8 +43,6 @@ function showWebsite(e) {
   codeModal.style = "display:none;";
   webAppModal.style = "display:none;";
 }
-
-
 
 function disableScroll() {
     // Get the current page scroll position
