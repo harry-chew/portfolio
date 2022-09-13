@@ -186,29 +186,35 @@
         <i id="webAppModalClose" class="x-button fa-solid fa-circle-xmark"></i>
 
         <div class="wordPressModalInner">
-          <a href="apps/convert" target="_blank" class="wordPressModalCard">
+          <a href="apps/convert" target="_blank" class="wepAppModalCard">
             <div class="cardsImgWrapper">
               <i class="fa-solid fa-building"></i>
             </div>
             <p>Simple conversion tool written in JavaScript.</p>
           </a>
-          <a href="apps/chuck" target="_blank" class="wordPressModalCard">
+          <a href="apps/chuck" target="_blank" class="wepAppModalCard">
             <div class="cardsImgWrapper">
               <i class="fa-solid fa-building"></i>
             </div>
             <p>Random Chuck Norris joke website.</p>
           </a>
-          <a href="apps/todo" target="_blank" class="wordPressModalCard">
+          <a href="apps/todo" target="_blank" class="wepAppModalCard">
             <div class="cardsImgWrapper">
               <i class="fa-solid fa-building"></i>
             </div>
             <p>Todo App written in JavaScript</p>
           </a>
-          <a href="apps/weather" target="_blank" class="wordPressModalCard">
+          <a href="apps/weather" target="_blank" class="wepAppModalCard">
             <div class="cardsImgWrapper">
               <i class="fa-solid fa-building"></i>
             </div>
             <p>Weather App written in JavaScript</p>
+          </a>
+          <a href="apps/game-of-life" target="_blank" class="wepAppModalCard">
+            <div class="cardsImgWrapper">
+              <i class="fa-solid fa-building"></i>
+            </div>
+            <p>Conways' Game of Life App written in JavaScript</p>
           </a>
         </div>
       </div>

@@ -1,13 +1,22 @@
 const c = document.getElementById('canvas');
 const ctx = c.getContext("2d");
+const slider = document.getElementById('speed');
 
+slider.addEventListener("change", updateSpeed);
+
+
+//vars
 let grid;
 let newGrid;
 let width = 10;
 let height = 10;
 let cols = 800/width;
 let rows = 600/height;
+let speed = slider.value;
 
+function updateSpeed() {
+  speed = slider.value;
+}
 
 function create2DArray(cols, rows) {
   let arr = new Array(cols);
@@ -78,7 +87,6 @@ function checkCellState(cell) {
 
 function checkNeighbours(g, x, y) {
   let n = 0;
-
   for(let i = -1; i < 2; i++) {
     for(let j = -1; j < 2; j++) {
       if(x+i >= 0 && y+j >= 0 && x+i < cols && y+j < rows) {
@@ -94,18 +102,22 @@ function checkNeighbours(g, x, y) {
 }
 
 
+
+//THE ACTUAL GAME OF LIFE
 setup();
 drawGrid();
 //console.table(grid);
 
-
 function loop() {
-    emptyGrid();
-    updateGrid();
-    drawGrid();
-   setTimeout(loop, 1000);
+  emptyGrid();
+  updateGrid();
+  drawGrid();
+  setTimeout(loop, speed);
+
 }
+
 loop();
+
 
 
 

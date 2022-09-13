@@ -19,3 +19,9 @@ canvas {
 p {
   text-align: center;
 }
+
+input {
+  width : 800px;
+  margin: auto;
+  text-align: center;
+}

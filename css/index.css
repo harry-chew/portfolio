@@ -73,7 +73,6 @@ body {
 .landing-wrapper h1 {
   margin : 30px;
   color : rgba(255,255,255,0.85);
-  //color : rgba(255,255,255,0.15);
   text-shadow: 3px 3px 5px rgba(125,55,254,0.1);
 }
 .call-to-action {
@@ -296,6 +295,28 @@ body {
 .wordPressModalCard img {
   width : 50%;
 }
+
+.wepAppModalCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width : 25%;
+  background-color: rgba(255,255,255,0.5);
+  text-align: center;
+  padding : 1rem;
+  margin : 1rem;
+  text-decoration: none;
+  color : rgba(0,0,0,1);
+  box-shadow : 10px 10px 5px rgba(0,0,0,0.5);
+  transition: all 0.3s ease;
+}
+
+.wepAppModalCard:hover {
+  box-shadow : 5px 5px 15px rgba(0,0,0,0.5);
+}
+.wepAppModalCard img {
+  width : 50%;
+}
 .cardsImgWrapper {
   width : 100%;
   display: flex;
@@ -305,10 +326,10 @@ body {
   background-color: rgba(0,0,0,0.3);
   height : 150px;
 }
-.wordPressModalCard i {
+.wordPressModalCard i, .cardsImgWrapper i {
   font-size : 3rem;
 }
-.wordPressModalCard a {
+.wordPressModalCard a, .webAppModalCard a {
   text-decoration: none;
   border : 1px solid grey;
   color : rgba(0,0,0,1);
@@ -317,13 +338,13 @@ body {
   transition: all 0.2s ease;
 }
 
-.wordPressModalCard a:hover {
+.wordPressModalCard a:hover, .webAppModalCard a:hover {
   background-color: rgba(0,0,0,0.5);
   color : rgba(255,255,255,0.5);
 }
 
 
-.wordPressModalCard i, .wordPressModalCard a, .wordPressModalCard p {
+.wordPressModalCard i, .wordPressModalCard a, .wordPressModalCard p, .webAppModalCard i, .webAppModalCard a, .webAppModalCard p {
   margin : 1rem;
 }
 
