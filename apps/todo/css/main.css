@@ -2,7 +2,9 @@
   border : 0;
   padding : 0;
   margin : 0;
+  /*font-family: 'Patua One', cursive;*/
   font-family: 'Plus Jakarta Sans', sans-serif;
+
 }
 
 body {
@@ -12,8 +14,8 @@ body {
   margin : 0 auto;
   align-items: center;
   justify-content: center;
-}
 
+}
 .grad {
   width : 100%;
   height : 100%;
@@ -23,29 +25,24 @@ body {
   left : 0;
   background-image: linear-gradient(#ffffff, #00ffff);
 }
-
 #header {
   height : 5vh;
   padding : 1rem;
   margin-bottom: 2rem;
   font-size: 3rem;
 }
-
 i {
   pointer-events: none;
 }
-
 form {
   display: flex;
   width : 50%;
   border : 1px solid rgba(0,0,0,0.5);
 }
-
 form input {
   flex : 1;
   border : 2px solid rgba(0,0,0,0);
 }
-
 form input:hover {
   border : 2px solid rgba(255,0,0,0.5);
 }
@@ -60,11 +57,9 @@ form input, form button, form select {
   padding : 1rem;
   font-size: 1.5rem;
 }
-
 .completeBtn {
   background-color : rgba(0,255,0,0.75);
 }
-
 .completeBtn:hover {
   background-color: rgba(0,0,0,0.5);
   color : rgb(0,255,0);
@@ -108,7 +103,6 @@ form input, form button, form select {
   color : black;
   transition: all 0.2s ease;
 }
-
 #todo-add-button:hover {
   background-color: rgba(0,0,0,0.5);
   color : white;

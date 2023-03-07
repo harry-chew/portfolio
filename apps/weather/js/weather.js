@@ -5,10 +5,15 @@ const windSpeed = document.getElementById('windSpeed');
 const windDir = document.getElementById('windDir');
 const body = document.getElementsByName('body');
 
+
 const input = document.getElementById('location-search');
 const search = document.getElementById('location-submit');
 const details = document.getElementById('weather-details');
 
+
+
+//let currentURL = 'https://api.weatherapi.com/v1/current.json?key=607673592df841cdb14133226221305&q=PE197BD&aqi=no'
+//getCurrentWeather("PE196BD")
 window.onload = onLoad();
 
 function onLoad() {
@@ -17,6 +22,7 @@ function onLoad() {
 }
 
 function getCurrentWeather(search) {
+
   const xhr = new XMLHttpRequest()
   let weatherURL
 
@@ -45,6 +51,7 @@ function setWeatherInfo(l, t, i, ws, wd) {
   windDir.innerHTML = 'Wind Direction: ' + wd
 }
 
+
 function getIP() {
   const xhrIP = new XMLHttpRequest()
   xhrIP.open("GET", "https://api.ipify.org?format=json")
@@ -63,6 +70,8 @@ function getIP() {
     }
   }
 }
+
+
 
 function searchButtonClicked() {
   getCurrentWeather(input.value);

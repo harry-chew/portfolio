@@ -87,4 +87,7 @@ function filterTodo(event) {
         break;
       }
     }
+
+
+  //console.log(todoFilter.value);
 }

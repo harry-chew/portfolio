@@ -41,13 +41,11 @@
 .weather-wrapper p {
   font-size : 2rem;
 }
-
 .input-wrapper {
   width: 100%;
   display: flex;
   border-bottom : 1px solid black;
 }
-
 .input-wrapper input[type=text], .input-wrapper input[type=submit]{
   font-size: 3rem;
   padding : 5px;
