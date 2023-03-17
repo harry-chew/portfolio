@@ -157,6 +157,33 @@ body {
   background-color: powderblue;
 }
 
+.full {
+  width : 75%;
+  display: flex;
+  flex-direction: row;
+}
+
+.half {
+  width : 50%;
+  display: flex;
+  flex-direction: column;
+  padding : 2rem;
+  justify-content: center;
+}
+
+.half>ul {
+  margin-left: 1em;
+}
+.half>img {
+  width : 100%;
+  border-radius: 25px;
+}
+.journey {
+  align-items: end;
+  display: flex;
+  flex-direction: column;
+}
+
 #web {
   background-image: url('../img/webdev.png');
   background-attachment: fixed;

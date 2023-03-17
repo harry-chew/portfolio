@@ -40,6 +40,7 @@
         </div>
         <div id="navbar" class="banner-links banner-elements">
           <a href="#about">About</a>
+          <a href="#games">Games</a>
           <a href="#web">Web</a>
           <a href="#contact">Contact</a>
         </div>
@@ -63,6 +64,76 @@
           <a href="#web" class="call-to-action-dark">Work</a>
         </div>
       </div>
+
+      <div id="games" class="games flex">
+        <div class="title">
+          <h2>Game Development</h2>
+        </div>
+        <div class="full">
+          <div class="half">
+            <div class="journey">
+              <h3>My Journey</h3>
+              <br>
+              <p>2001-2004 - Playtime</p>
+              <p>2004-2007 - Interest in development through gaming</p>
+              <p>2008-2014 - Continued learning through acedemic studies</p>
+              <p>2014-2018 - Worked in IT related roles</p>
+              <p>2018-2023 - Tech13 Ltd</p>
+              <p>2022-2023 - Mastered Gameplay Programmer Course</p>
+              <br>
+              <p>Future    - GAME DEVELOPER</p>
+            </div>
+          </div>
+          <div class="half">
+            <img src="img\code-blur2.png" alt="">
+          </div>
+        </div>
+        <div class="full">
+          <div class="half">
+          <img src="img\vehicle-configurator.png" alt="">
+          </div>
+          <div class="half">
+            <h3>Recent Project</h3>
+            <br>
+            <p>Vehicle Configurator built using Unity and C#</p>
+            <ul>
+              <li>OOP</li>
+              <li>Design Patterns</li>
+              <li>Post Processing FX</li>
+              <li>Audio</li>
+              <li>UI</li>
+            </ul>
+            <br>
+            <p>Test out the application <a href="https://harrychew.itch.io/vehicle-configurator" target="_blank">here</a></p>
+          </div>
+        </div>
+        <div class="full">
+
+          <div class="half">
+            <div class="journey">
+              <h3>Past Project</h3>
+              <br>
+              <p>Small mobile game built using Unity and C#</p>
+              <p>I am rebuilding it.</p>
+              <br>
+              <p>Check out the application <a href="https://m.apkpure.com/asteroid-invaders-unreleased/com.harrychew.asteroidinvaders" target="_blank">here</a></p>
+            </div>
+          </div>
+          <div class="half">
+          <img src="img\asteroid-invaders-01.jpg" alt="">
+          </div>
+        </div>
+        
+        <div class="full">
+          <div class="half">
+          <h2>Check out my Itch profile for upcoming game releases!</h2>
+          <p><a href="http://harrychew.itch.io">ITCH PROFILE</a></p>
+          </div>
+
+        </div>
+
+      </div>
+
       <div id="web" class="web flex">
         <div class="title">
           <h2>Web Development</h2>
