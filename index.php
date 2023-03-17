@@ -42,6 +42,7 @@
           <a href="#about">About</a>
           <a href="#games">Games</a>
           <a href="#web">Web</a>
+          <a href="https://blog.harrychew.com" target="_blank">Blog</a>
           <a href="#contact">Contact</a>
         </div>
       </div>
