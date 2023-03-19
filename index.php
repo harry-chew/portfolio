@@ -74,14 +74,14 @@
           <div class="half">
             <div class="journey">
               <h3>My Journey</h3>
-              <br>
+              </br>
               <p>2001-2004 - Playtime</p>
               <p>2004-2007 - Interest in development through gaming</p>
               <p>2008-2014 - Continued learning through acedemic studies</p>
               <p>2014-2018 - Worked in IT related roles</p>
               <p>2018-2023 - Tech13 Ltd</p>
               <p>2022-2023 - Mastered Gameplay Programmer Course</p>
-              <br>
+              </br>
               <p>Future    - GAME DEVELOPER</p>
             </div>
           </div>
@@ -95,7 +95,7 @@
           </div>
           <div class="half">
             <h3>Recent Project</h3>
-            <br>
+            </br>
             <p>Vehicle Configurator built using Unity and C#</p>
             <ul>
               <li>OOP</li>
@@ -104,8 +104,8 @@
               <li>Audio</li>
               <li>UI</li>
             </ul>
-            <br>
-            <p>Test out the application <a href="https://harrychew.itch.io/vehicle-configurator" target="_blank">here</a></p>
+            </br>
+            <a class="games-link" href="https://harrychew.itch.io/vehicle-configurator" target="_blank">Test out the application here</a>
           </div>
         </div>
         <div class="full">
@@ -113,11 +113,11 @@
           <div class="half">
             <div class="journey">
               <h3>Past Project</h3>
-              <br>
+              </br>
               <p>Small mobile game built using Unity and C#</p>
               <p>I am rebuilding it.</p>
-              <br>
-              <p>Check out the application <a href="https://m.apkpure.com/asteroid-invaders-unreleased/com.harrychew.asteroidinvaders" target="_blank">here</a></p>
+              </br>
+              <a class="games-link" href="https://m.apkpure.com/asteroid-invaders-unreleased/com.harrychew.asteroidinvaders" target="_blank">Check out the application here</a>
             </div>
           </div>
           <div class="half">
@@ -125,12 +125,8 @@
           </div>
         </div>
         
-        <div class="full">
-          <div class="half">
-          <h2>Check out my Itch profile for upcoming game releases!</h2>
-          <p><a href="http://harrychew.itch.io">ITCH PROFILE</a></p>
-          </div>
-
+        <div class="itch">          
+          <h2><a class="games-link" href="http://harrychew.itch.io">Check out my Itch profile for upcoming game releases!</a></h2>
         </div>
 
       </div>
@@ -173,12 +169,12 @@
             </div>
             <p>WordPress eCommerce website for face masks.</p>
           </a>
-          <a href="https://studiocarwash.co.uk" target="_blank" class="wordPressModalCard">
+          <!-- <a href="https://studiocarwash.co.uk" target="_blank" class="wordPressModalCard">
             <div class="cardsImgWrapper">
               <img src="img/scw-logo.png" alt="">
             </div>
             <p>WordPress business website for a Car Wash.</p>
-          </a>
+          </a> -->
           <a href="https://lilliancare.co.uk/" target="_blank" class="wordPressModalCard">
             <div class="cardsImgWrapper">
               <img src="img/lc-logo.png" alt="">
