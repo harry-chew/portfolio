@@ -36,7 +36,7 @@
     <div class="page-wrapper">
       <div id="banner" class="banner">
         <div id="hc" class="banner-links banner-elements">
-          <a href="#">Harry Chew</a>
+          <a href="#"><img src="img/HarryChewSmaller.jpg"/>Harry Chew</a>
         </div>
         <div id="navbar" class="banner-links banner-elements">
           <a href="#about">About</a>
