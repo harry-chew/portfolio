@@ -129,7 +129,10 @@
         </div>
 
       </div>
-
+        <a id="superprof" class="flex" href="https://www.superprof.co.uk/games-development-professional-teaches-programming-for-people-wanting-heads-from-the-beginning.html" target="_blank">
+          <img src="img\superprof.png" alt="">
+          <p>Wanna learn to code?</p>
+        </a>
       <div id="web" class="web flex">
         <div class="title">
           <h2>Web Development</h2>

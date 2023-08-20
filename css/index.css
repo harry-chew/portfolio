@@ -6,6 +6,15 @@
 
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .title, .call-to-action,.call-to-action-dark, h2 {
   font-family: 'Special Elite', cursive;
 }
@@ -591,4 +600,36 @@ input[type=submit]:hover {
   color : rgba(255,255,255,0.5);
   background-color: rgba(255,255,255,0.05);
   padding : 1rem;
+}
+
+
+/* SUPERPROF */
+#superprof {
+  width : 100%;
+  margin : 0 auto;
+  padding : 20px 0;
+  border-top : 3px solid black;
+  border-bottom : 3px solid black;
+  text-decoration: none;
+  background-color: rgba(0,25,40,0.35);
+  color : rgba(255,255,255,0.85);
+}
+#superprof>img {
+  padding : 20px;
+}
+#superprof:hover>p {
+  border : 1px solid black;
+  border-radius: 5px;
+}
+
+#superprof>p {
+  padding : 20px;
+  font-size : 1.3rem;
+  border : 1px solid rgba(0,0,0,0);
+  transition: all 0.2s;
+}
+
+#superprof>p:hover {
+  background-color : rgba(255,255,255,0.2);
+  color : rgba(0,0,0,0.7);
 }
