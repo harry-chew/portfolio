@@ -207,7 +207,7 @@
             <div class="cardsImgWrapper">
               <i class="fa-solid fa-building"></i>
             </div>
-            <p>Random Chuck Norris joke website.</p>
+            <p>Random Chuck Norris joke website. API intergration.</p>
           </a>
           <a href="apps/todo" target="_blank" class="wepAppModalCard">
             <div class="cardsImgWrapper">
@@ -246,7 +246,7 @@
             <input id ="submit" type="submit" name="c-submit" value="Send">
           </form>
           <div class="social">
-            <a href="https://www.linkedin.com/in/harry-chew-7298a015b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/harry-chew" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             <a href="mailto:harry@tech13.co.uk"><i class="fa-solid fa-square-envelope"></i></a>
             <a href="tel:07889610244"><i class="fa-solid fa-square-phone"></i></a>
             <a href="https://github.com/harry-chew/" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -254,7 +254,7 @@
         </div>
         </div>
         <div class="footer">
-          <p>Harry Chew &copy; 2022. All rights reserved.</p>
+          <p>Harry Chew &copy; 2023. All rights reserved.</p>
         </div>
       </div>
       <script type="text/javascript" src="js/index.js"></script>
