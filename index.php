@@ -75,14 +75,13 @@
             <div class="journey">
               <h3>My Journey</h3>
               </br>
-              <p>2001-2004 - Playtime</p>
-              <p>2004-2007 - Interest in development through gaming</p>
-              <p>2008-2014 - Continued learning through acedemic studies</p>
-              <p>2014-2018 - Worked in IT related roles</p>
-              <p>2018-2023 - Tech13 Ltd</p>
-              <p>2022-2023 - Mastered Gameplay Programmer Course</p>
-              </br>
-              <p>Future    - GAME DEVELOPER</p>
+              <p>Game Developer at Hunted Cow Studios - 2023-2023</p>
+              <p>Mastered Gameplay Programmer Course - 2022-2023</p>
+              <p>Tech13 Ltd - 2018-2023</p>
+              <p>Worked in IT related roles - 2014-2018</p>
+              <p>Continued learning through acedemic studies - 2008-2014</p>
+              <p>Interest in development through gaming - 2004-2007</p>
+              <p>Playtime - 2001-2004</p>
             </div>
           </div>
           <div class="half">
