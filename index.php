@@ -162,41 +162,12 @@
             </div>
             <p>WordPress eCommerce website with ebay & amazon integrations.</p>
           </a>
-          <a href="https://sol-tree.co.uk" target="_blank" class="wordPressModalCard">
-            <div class="cardsImgWrapper">
-              <img src="img/st-logo.png" alt="">
-            </div>
-            <p>WordPress eCommerce website for face masks.</p>
-          </a>
-          <!-- <a href="https://studiocarwash.co.uk" target="_blank" class="wordPressModalCard">
-            <div class="cardsImgWrapper">
-              <img src="img/scw-logo.png" alt="">
-            </div>
-            <p>WordPress business website for a Car Wash.</p>
-          </a> -->
-          <a href="https://lilliancare.co.uk/" target="_blank" class="wordPressModalCard">
-            <div class="cardsImgWrapper">
-              <img src="img/lc-logo.png" alt="">
-            </div>
-            <p>WordPress business website for Home Care.</p>
-          </a>
         </div>
       </div>
       <div id="codeModal" class="">
         <h2>Websites from scratch projects</h2>
         <i id="codeModalClose" class="x-button fa-solid fa-circle-xmark"></i>
         <div class="wordPressModalInner">
-          <div class="wordPressModalCard">
-            <img src="img/t13-logo.png" alt="">
-            <a href="https://tech13.co.uk" target="_blank">Tech13 Ltd</a>
-            <p>IT support and implementation company website.</p>
-            <ul>
-              <lh>Technology</lh>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavScript</li>
-            </ul>
-          </div>
           <div class="wordPressModalCard">
             <img src="img/avx-logo.png" alt="">
             <a href="https://hireshop.avxpert.co.uk" target="_blank">AV Xpert Ltd</a>
