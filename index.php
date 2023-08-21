@@ -75,14 +75,13 @@
             <div class="journey">
               <h3>My Journey</h3>
               </br>
-              <p>2001-2004 - Playtime</p>
-              <p>2004-2007 - Interest in development through gaming</p>
-              <p>2008-2014 - Continued learning through acedemic studies</p>
-              <p>2014-2018 - Worked in IT related roles</p>
-              <p>2018-2023 - Tech13 Ltd</p>
-              <p>2022-2023 - Mastered Gameplay Programmer Course</p>
-              </br>
-              <p>Future    - GAME DEVELOPER</p>
+              <p>Game Developer at Hunted Cow Studios - 2023-2023</p>
+              <p>Mastered Gameplay Programmer Course - 2022-2023</p>
+              <p>Tech13 Ltd - 2018-2023</p>
+              <p>Worked in IT related roles - 2014-2018</p>
+              <p>Continued learning through acedemic studies - 2008-2014</p>
+              <p>Interest in development through gaming - 2004-2007</p>
+              <p>Playtime - 2001-2004</p>
             </div>
           </div>
           <div class="half">
@@ -130,7 +129,10 @@
         </div>
 
       </div>
-
+        <a id="superprof" class="flex" href="https://www.superprof.co.uk/games-development-professional-teaches-programming-for-people-wanting-heads-from-the-beginning.html" target="_blank">
+          <img src="img\superprof.png" alt="">
+          <p>Wanna learn to code?</p>
+        </a>
       <div id="web" class="web flex">
         <div class="title">
           <h2>Web Development</h2>
@@ -163,41 +165,12 @@
             </div>
             <p>WordPress eCommerce website with ebay & amazon integrations.</p>
           </a>
-          <a href="https://sol-tree.co.uk" target="_blank" class="wordPressModalCard">
-            <div class="cardsImgWrapper">
-              <img src="img/st-logo.png" alt="">
-            </div>
-            <p>WordPress eCommerce website for face masks.</p>
-          </a>
-          <!-- <a href="https://studiocarwash.co.uk" target="_blank" class="wordPressModalCard">
-            <div class="cardsImgWrapper">
-              <img src="img/scw-logo.png" alt="">
-            </div>
-            <p>WordPress business website for a Car Wash.</p>
-          </a> -->
-          <a href="https://lilliancare.co.uk/" target="_blank" class="wordPressModalCard">
-            <div class="cardsImgWrapper">
-              <img src="img/lc-logo.png" alt="">
-            </div>
-            <p>WordPress business website for Home Care.</p>
-          </a>
         </div>
       </div>
       <div id="codeModal" class="">
         <h2>Websites from scratch projects</h2>
         <i id="codeModalClose" class="x-button fa-solid fa-circle-xmark"></i>
         <div class="wordPressModalInner">
-          <div class="wordPressModalCard">
-            <img src="img/t13-logo.png" alt="">
-            <a href="https://tech13.co.uk" target="_blank">Tech13 Ltd</a>
-            <p>IT support and implementation company website.</p>
-            <ul>
-              <lh>Technology</lh>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavScript</li>
-            </ul>
-          </div>
           <div class="wordPressModalCard">
             <img src="img/avx-logo.png" alt="">
             <a href="https://hireshop.avxpert.co.uk" target="_blank">AV Xpert Ltd</a>
@@ -237,7 +210,7 @@
             <div class="cardsImgWrapper">
               <i class="fa-solid fa-building"></i>
             </div>
-            <p>Random Chuck Norris joke website.</p>
+            <p>Random Chuck Norris joke website. API intergration.</p>
           </a>
           <a href="apps/todo" target="_blank" class="wepAppModalCard">
             <div class="cardsImgWrapper">
@@ -276,7 +249,7 @@
             <input id ="submit" type="submit" name="c-submit" value="Send">
           </form>
           <div class="social">
-            <a href="https://www.linkedin.com/in/harry-chew-7298a015b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/harry-chew" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             <a href="mailto:harry@tech13.co.uk"><i class="fa-solid fa-square-envelope"></i></a>
             <a href="tel:07889610244"><i class="fa-solid fa-square-phone"></i></a>
             <a href="https://github.com/harry-chew/" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -284,7 +257,7 @@
         </div>
         </div>
         <div class="footer">
-          <p>Harry Chew &copy; 2022. All rights reserved.</p>
+          <p>Harry Chew &copy; 2023. All rights reserved.</p>
         </div>
       </div>
       <script type="text/javascript" src="js/index.js"></script>
