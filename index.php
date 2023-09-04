@@ -18,18 +18,19 @@
     <link rel="manifest" href="img/site.webmanifest">
     <title>Harry Chew</title>
     <script>
-    $(document).ready(function ()  {
-      $('#banner').hide();
-    });
-    $(document).scroll(function () {
-      var y = $(this).scrollTop();
-      if (y > 10) {
-          $('#banner').slideDown();
-      } else {
-        //$('#banner').addClass('hide');
-          $('#banner').slideUp();
-      }
-    });
+      $(document).ready(function ()  {
+        //$('#banner').hide();
+      });
+      $(document).on("scroll", (function () {
+        var y = $(this).scrollTop();
+        console.log(y);
+        if (y > 10) {
+            $('#banner').slideDown();
+        } else {
+          //$('#banner').addClass('hide');
+            $('#banner').slideUp();
+        }
+      }));
     </script>
   </head>
   <body>

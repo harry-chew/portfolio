@@ -50,7 +50,7 @@ body {
   flex-direction: column;
   width : 10%;
   justify-content: flex-start;
-
+  flex-grow: 1;
 }
 
 #hc>a>img {
@@ -63,9 +63,9 @@ body {
 }
 
 #navbar {
-  width : 90%;
+  width : 80%;
   justify-content: flex-end;
-  
+  flex-grow: 1;
 }
 
 .banner-elements {
@@ -80,6 +80,7 @@ body {
   text-decoration: none;
   padding : 1rem;
   transition: all 0.3s ease;
+  line-height: 2rem;
 }
 
 .banner-links a:hover {
