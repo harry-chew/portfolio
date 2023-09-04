@@ -633,3 +633,37 @@ input[type=submit]:hover {
   background-color : rgba(255,255,255,0.2);
   color : rgba(0,0,0,0.7);
 }
+
+/* FIVERR */
+#fiverr {
+  display: flex;
+  flex-direction: row;
+  width : 100%;
+  margin : 0 auto;
+  padding : 20px 0;
+  border-top : 3px solid black;
+  border-bottom : 3px solid black;
+  text-decoration: none;
+  background-color: rgba(0,25,40,0.35);
+  color : rgba(255,255,255,0.85);
+}
+#fiverr>img {
+  width : 10%;
+  padding : 20px;
+}
+#fiverr:hover>p {
+  border : 1px solid black;
+  border-radius: 5px;
+}
+
+#fiverr>p {
+  padding : 20px;
+  font-size : 1.3rem;
+  border : 1px solid rgba(0,0,0,0);
+  transition: all 0.2s;
+}
+
+#fiverr>p:hover {
+  background-color : rgba(255,255,255,0.2);
+  color : rgba(0,0,0,0.7);
+}

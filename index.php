@@ -232,6 +232,10 @@
           </a>
         </div>
       </div>
+      <a id="fiverr" class="flex" href="https://www.fiverr.com/s/pNVgx8" target="_blank">
+          <img src="img\fiverr.png" alt="">
+          <p>Let me take care of your WordPress website</p>
+        </a>
       <div id="contact" class="contact flex">
         <div class="title">
           <h2>Would love to hear from you!</h2>
